@@ -17,3 +17,11 @@ This coursework implements **Retrieval-Augmented Generation (RAG)** system is im
 * `prediction_modeler`: This agent is responsible for generating the final output, which are the predicted rating and synthesized review the customer would likely give, given the reports provided by the first two agents.
 
 A shared knowledge describing the details of each key field in the database is made accessible to all agents by assigning it to the crew-level `knowledge_sources`.
+
+## Output Example
+```
+{
+  "stars": 4.5,
+  "text": "I had a great experience at this restaurant. The service was top-notch, the menu variety was impressive, and the ambiance was cozy and inviting. The prices were reasonable, and the food was delicious. I would highly recommend this place to anyone looking for a great dining experience."
+}
+```
